@@ -1,0 +1,59 @@
+.checkoutContainer {
+  /* background-color: olive; */
+  box-shadow: rgb(253, 239, 239) 0px 5px 15px;
+  height: 225px;
+color:white;
+ font-family:"Bree serif",serif;
+ font-size: 17px;
+  padding: 5px;
+ background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf4YuL1VlkxQt44Bh23NdzwsQC35BAfn5pSXp_o3bCN3WmNqhqchLMFUxrjftzi_G8s2o&usqp=CAU');
+  margin-top: 10px;
+background-size: cover;
+  border-radius: 10px;
+}
+
+.checkoutContainer .detailsHeading {
+  /* background-color: antiquewhite; */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.checkoutContainer .detailsHeading h3 {
+  text-decoration: underline;
+}
+
+.checkoutContainer .details {
+  /* background-color: lightseagreen; */
+  margin: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7px;
+}
+
+.checkoutContainer .details label {
+  font-weight: 500;
+}
+
+.checkoutContainer .details p {
+  font-size: 15px;
+}
+
+.checkOutButtonContainer {
+  /* background-color: azure; */
+  margin-top: 15px;
+}
+
+.checkOutButtonContainer button {
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.checkOutButtonContainer button:hover {
+  background-color: crimson;
+  color: #fff;
+}

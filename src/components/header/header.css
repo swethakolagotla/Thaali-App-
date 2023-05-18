@@ -1,0 +1,12 @@
+.headerContainer {
+  background-color: pink;
+  width: 60%;
+  height: 50px;
+  margin: auto;
+ font-family: "Sofia", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+font-size: 30px;
+  border-radius: 10px;
+}
